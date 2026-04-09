@@ -36,6 +36,7 @@ import travelTalesImage from './assets/travel-tales-project.png';
 import auraHealthImage from './assets/aura-health-intelligence.png';
 import healthyMealImage from './assets/healthymeal-cloud-kitchen.png';
 import medicareImage from './assets/medicare-project.png';
+import profileImage from './assets/profile.jpg';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -573,7 +574,7 @@ function App() {
 >
   <div className="absolute inset-4 bg-gradient-to-br from-purple-500 to-indigo-500 rounded-2xl overflow-hidden shadow-2xl">
     <img 
-      src="/src/assets/profile.jpg" 
+      src={profileImage} 
       alt="Karan Bipate"
       className="w-full h-full object-cover"
     />

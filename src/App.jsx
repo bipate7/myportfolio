@@ -32,6 +32,10 @@ import {
   Camera,
   Eye,
 } from 'lucide-react';
+import travelTalesImage from './assets/travel-tales-project.png';
+import auraHealthImage from './assets/aura-health-intelligence.png';
+import healthyMealImage from './assets/healthymeal-cloud-kitchen.png';
+import medicareImage from './assets/medicare-project.png';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -979,7 +983,7 @@ function App() {
               live: "https://bipate7.github.io/TravelTales2025/",
               code: "https://github.com/bipate7/TravelTales2025",
               features: ["AI Chatbot", "VR/AR Tours", "Payment System", "Real-time Analytics", "25+ Pages", "95+ Performance Score"],
-              image: "/src/assets/travel-tales-project.png"
+              image: travelTalesImage
             },
             {
               title: "Aura Health Intelligence",
@@ -989,7 +993,7 @@ function App() {
               live: "https://aura-health-demo.netlify.app",
               code: "https://github.com/bipate7/aura-health-intelligence",
               features: ["AI Diagnostics", "Real-time Monitoring", "Health Analytics", "Personalized Recommendations", "Wellness Tracking"],
-              image: "/src/assets/aura-health-intelligence.png"
+              image: auraHealthImage
             },
             {
               title: "HealthyMeal Cloud Kitchen",
@@ -999,7 +1003,7 @@ function App() {
               live: "https://healthy-meal-cloud-kitchen.vercel.app/",
               code: "https://github.com/bipate7/healthy-meal-cloud-kitchen",
               features: ["E-commerce Platform", "Subscription Management", "Admin Dashboard", "Secure Authentication", "Database Optimization", "Performance Caching"],
-              image: "/src/assets/healthymeal-cloud-kitchen.png"
+              image: healthyMealImage
             },
             {
               title: "MediCare",
@@ -1009,7 +1013,7 @@ function App() {
               live: "https://medicare-project-coral.vercel.app/",
               code: "https://github.com/bipate7/medicare-project",
               features: ["Telemedicine Platform", "Patient Management", "Appointment Scheduling", "Digital Prescriptions", "Role-Based Access Control", "Analytics Dashboard"],
-              image: "/src/assets/medicare-project.png"
+              image: medicareImage
             }
           ].map((project, idx) => (
             <motion.div
